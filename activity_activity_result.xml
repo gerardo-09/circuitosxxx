@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lytContenedorSaludo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15" />
+
+    <TextView android:id="@+id/txtResult2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15" />
+
+    <TextView android:id="@+id/txtResult3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05" />
+
+    <TextView android:id="@+id/txtResult4"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.10" />
+
+    <TextView android:id="@+id/txtResult5"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.10" />
+
+    <TextView android:id="@+id/txtResult6"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.10" />
+
+    <TextView android:id="@+id/txtResult7"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.10" />
+
+    <TextView android:id="@+id/txtResult8"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.10" />
+
+    <TextView android:id="@+id/txtResult9"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.10" />
+
+</LinearLayout>
