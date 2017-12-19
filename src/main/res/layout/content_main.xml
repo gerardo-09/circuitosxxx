@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lytContenedor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#eae9e9">
+
+    <TextView android:id="@+id/lblNombre"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Filas"
+        android:layout_weight=".05"
+        android:editable="false"
+        android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material" />
+
+    <EditText android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView android:id="@+id/lblNombre2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Columnas"
+        android:layout_weight=".05"
+        android:editable="false"
+        android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material" />
+
+    <EditText android:id="@+id/txtNombre2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dirección de corrientes"
+        android:layout_weight=".05"
+        android:editable="false"
+        android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material" />
+
+    <EditText
+        android:id="@+id/Corrientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight=".05" />
+
+    <Button android:id="@+id/btnAceptar"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:text="@string/aceptar"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

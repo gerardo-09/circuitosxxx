@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppCircuitos_2</string>
+    <string name="action_settings">Settings</string>
+    <string name="Filas">Filas</string>
+    <string name="Columnas">Columnas</string>
+    <string name="aceptar">Aceptar</string>
+</resources>
